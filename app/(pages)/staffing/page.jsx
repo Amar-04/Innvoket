@@ -64,7 +64,10 @@ const Staffing = () => {
   ];
 
   return (
-    <div className="relative bg-dark text-white px-6 py-8" style={{ fontFamily: "Unbounded, sans-serif" }}>
+    <div
+      className="relative bg-dark text-white px-6 py-8"
+      style={{ fontFamily: "Unbounded, sans-serif" }}
+    >
       {/* Background Image */}
       <div className="absolute inset-0 -z-10 flex justify-center">
         <Image
@@ -89,7 +92,8 @@ const Staffing = () => {
           </span>
         </h1>
         <p className="mt-6 mx-auto max-w-xl text-gray-300 satoshi mb-8">
-          We believe in combining innovative design, sustainable practices, and exceptional craftsmanship to bring your vision to life.
+          We believe in combining innovative design, sustainable practices, and
+          exceptional craftsmanship to bring your vision to life.
         </p>
         <button
           href="/pages/contact"
@@ -99,27 +103,41 @@ const Staffing = () => {
         </button>
       </section>
 
-      
       {/* Services Section */}
       <section className="my-16">
-        <h2 className="text-center text-3xl font-semibold satoshi mb-8">Our Services</h2>
+        <h2 className="text-center text-3xl font-semibold satoshi mb-8">
+          Our Services
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-[#E17622] text-dark p-6 rounded-xl shadow-lg">
-            <h5 className="text-xl font-semibold mb-4">Dedicated Developer Hiring</h5>
+            <h5 className="text-xl font-semibold mb-4">
+              Dedicated Developer Hiring
+            </h5>
             <p className="text-gray-800">
-              Hire experienced developers who focus exclusively on your project. Our developers become an extension of your in-house team, ensuring commitment and project ownership.
+              Hire experienced developers who focus exclusively on your project.
+              Our developers become an extension of your in-house team, ensuring
+              commitment and project ownership.
             </p>
           </div>
           <div className="bg-gray-800 text-gray-300 p-6 rounded-xl shadow-lg">
-            <h5 className="text-xl font-semibold mb-4 text-[#E17622]">Staff Augmentation</h5>
+            <h5 className="text-xl font-semibold mb-4 text-[#E17622]">
+              Staff Augmentation
+            </h5>
             <p>
-              Scale your team efficiently with our on-demand developer augmentation services. Fill skill gaps and meet project deadlines by accessing experienced professionals without full-time hiring.
+              Scale your team efficiently with our on-demand developer
+              augmentation services. Fill skill gaps and meet project deadlines
+              by accessing experienced professionals without full-time hiring.
             </p>
           </div>
           <div className="bg-gray-800 text-gray-300 p-6 rounded-xl shadow-lg">
-            <h5 className="text-xl font-semibold mb-4 text-[#E17622]">Dedicated Team Contracting</h5>
+            <h5 className="text-xl font-semibold mb-4 text-[#E17622]">
+              Dedicated Team Contracting
+            </h5>
             <p>
-              Build full development teams - including project managers, developers, data scientists, and QA specialists - under contract. These teams work exclusively on your project, providing end-to-end development services.
+              Build full development teams - including project managers,
+              developers, data scientists, and QA specialists - under contract.
+              These teams work exclusively on your project, providing end-to-end
+              development services.
             </p>
           </div>
         </div>
@@ -127,16 +145,22 @@ const Staffing = () => {
 
       {/* Tech Stack Section */}
       <section className="my-16">
-        <h2 className="text-center text-3xl font-semibold satoshi mb-8">Our Tech Stack</h2>
+        <h2 className="text-center text-3xl font-semibold satoshi mb-8">
+          Our Tech Stack
+        </h2>
         <section className=" py-8">
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <div className="card bg-[#1f1f1f] shadow-lg rounded-lg p-6 text-center">
-              <div className="text-5xl font-extrabold text-[#E17622]">20+</div>
-              <div className="text-xl font-semibold text-gray-300">Developers</div>
+              <div className="text-5xl font-extrabold text-[#E17622]">35+</div>
+              <div className="text-xl font-semibold text-gray-300">
+                Developers
+              </div>
             </div>
             <div className="card bg-[#1f1f1f] shadow-lg rounded-lg p-6 text-center">
               <div className="text-5xl font-extrabold text-[#E17622]">4+</div>
-              <div className="text-xl font-semibold text-gray-300">Experience</div>
+              <div className="text-xl font-semibold text-gray-300">
+                Experience
+              </div>
             </div>
           </div>
         </section>
@@ -149,11 +173,8 @@ const Staffing = () => {
         ))}
       </section>
 
-
-
       {/* Footer */}
-      <footer className="text-center mt-16 text-gray-400 satoshi">
-      </footer>
+      <footer className="text-center mt-16 text-gray-400 satoshi"></footer>
     </div>
   );
 };

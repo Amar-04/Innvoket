@@ -46,7 +46,7 @@ const Navbar = () => {
           href="/staffing"
           className={`rounded-full px-4 py-2 ${isActive("/staffing")}`}
         >
-          Staff Augmentation
+          STAFF AUGUMENTATION
         </Link>
         <Link
           href="/blog"
